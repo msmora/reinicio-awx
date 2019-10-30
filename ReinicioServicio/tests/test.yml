@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 192.168.69.215
   remote_user: root
   roles:
     - ReinicioServicio
