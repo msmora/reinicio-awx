@@ -1,6 +1,10 @@
 ---
-- name: Restart a service
+- name: Stop a service
   win_service:
     name: spooler
     state: stopped
 # tasks file for ReinicioServicio
+- name: Start a service
+  win_service:
+    name: spooler
+    state: started
