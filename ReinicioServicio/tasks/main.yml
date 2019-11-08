@@ -2,5 +2,5 @@
 - name: Restart a service
   win_service:
     name: spooler
-    state: stopped
+    state: restarted
 # tasks file for ReinicioServicio
