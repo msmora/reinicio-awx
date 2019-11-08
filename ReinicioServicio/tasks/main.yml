@@ -8,3 +8,8 @@
   win_service:
     name: spooler
     state: started
+  register: result
+
+- debug:
+    var: result
+    verbosity: 2
