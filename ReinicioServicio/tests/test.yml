@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.69.215
+- hosts: 172.21.6.68
   remote_user: root
   roles:
     - ReinicioServicio
